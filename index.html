@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como crear paginas web con I.A</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #FFF;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 36px;
+            color: #1E90FF; /* Azul que combina con negro y blanco */
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            text-align: justify;
+            max-width: 800px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .button-container a, .button-container button {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #0070ba;
+            color: #FFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            width: 250px;
+            justify-content: center;
+            cursor: pointer;
+            border: none;
+        }
+        .button-container a img, .button-container button img {
+            margin-right: 10px;
+        }
+        .button-container .kofi {
+            background-color: #FF5E5B;
+        }
+        .button-container .whatsapp {
+            background-color: #25D366;
+            width: auto;
+        }
+        .button-container .facebook {
+            background-color: #3b5998;
+            width: auto;
+        }
+        #sinpe-info {
+            display: none;
+            background-color: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            max-width: 800px;
+            text-align: justify;
+        }
+        #sinpe-info p {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        function toggleSinpeInfo() {
+            var sinpeInfo = document.getElementById('sinpe-info');
+            if (sinpeInfo.style.display === 'none') {
+                sinpeInfo.style.display = 'block';
+            } else {
+                sinpeInfo.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Como crear paginas web con I.A</h1>
+    <p>En este pequeño E-book te enseñare como puedes crear paginas web con I.A, es decir, no debes saber nada de programacion simplemente debes escribir la idea de tu pagina a la I.A para que te genere el codigo, implementarlo en un programa especifico y subirlo a la web, basicamente te enseñare como hacer que la I.A te genere el codigo de tu pagina con solo escribirle tu idea, como y donde implementarlo y como subirla a la web de manera gratuita con un subdominio.</p>
+    <p>De hecho esta pagina en la que estas leyendo acerca de nuestro E-book fue hecha con este mismo metodo, aprenderas a hacer paginas web a tu antojo sin saber nada de programacion ni de informatica, solo escribiendo como quieres tu pagina, ademas de como implementarla y publicarla de manera gratuita todo esto con un unico pago de $5USD, practicamente toda esta informacion para hacer paginas web facilmente por lo mismo que cuesta un refresco.</p>
+    <p>¿Que esperas? es un proceso super sencillo de hacer y aprender por lo tanto podras crear paginas rapidamente teniendo tu idea, puedes realizar el pago con algunas de las siguientes formas:</p>
+    
+    <div class="button-container">
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=marlonsotogames@gmail.com&item_name=Escribe%20tu%20email%20aqui&amount=5.00&currency_code=USD" target="_blank">
+            <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal" width="24" height="24">
+            Pagar con PayPal
+        </a>
+        <a href="https://ko-fi.com/marlonsotogames" target="_blank" class="kofi">
+            <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" width="24" height="24">
+            Pagar con tarjeta de debito/credito mediante Ko-fi
+        </a>
+        <button onclick="toggleSinpeInfo()">
+            Si eres de Costa Rica paga via Sinpe móvil
+        </button>
+        <div id="sinpe-info">
+            <p>Si eres de Costa Rica puedes utilizar "Sinpe móvil" al número +50689028220. El comprobante lo puedes enviar al mismo número por WhatsApp.</p>
+            <p>El precio en colones es de 2500 colones.</p>
+        </div>
+        <p>Cualquier información adicional, duda o si necesitas ayuda con el proceso de pago puedes escribirme a mi número +50689028220 o a mi email mm.soto.molina@gmail.com te atenderé con mucho gusto</p>
+        <a href="https://wa.me/50689028220" target="_blank" class="whatsapp">
+            Contactar por WhatsApp
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100090071088897" target="_blank" class="facebook">
+            Visita nuestra página de Facebook
+        </a>
+    </div>
+</body>
+</html>
+
